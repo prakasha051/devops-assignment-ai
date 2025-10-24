@@ -17,3 +17,4 @@ def index():
 if __name__ == "__main__":
     # Default port matches Helm service targetPort
     app.run(host="0.0.0.0", port=8080)
+
